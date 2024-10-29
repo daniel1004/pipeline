@@ -44,7 +44,6 @@ func FilterPositive(done <-chan struct{}, inputData <-chan int) <-chan int {
 			}
 		}
 	}()
-
 	return onlyPositiveData
 }
 
